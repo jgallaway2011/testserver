@@ -1,0 +1,22 @@
+{
+  "name": "testserver",
+  "version": "1.0.0",
+  "description": "Test Server for Webhook",
+  "main": "testserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgallaway2011/testserver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgallaway2011/testserver/issues"
+  },
+  "homepage": "https://github.com/jgallaway2011/testserver#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
