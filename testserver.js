@@ -23,10 +23,10 @@ app.use(express.urlencoded({ extended: true }));
 // })
 
 app.post('/', function(request, response) {
-  console.log('POST /')
-  console.dir(request.body)
-  // response.writeHead(200, {'Content-Type': 'text/html'})
-  // response.end('thanks')
+  console.log('POST /');
+  console.dir(request.body);
+  response.writeHead(200, {'Content-Type': 'text/html'});
+  response.end('thanks');
 })
 
 const port = process.env.PORT || 3000;
