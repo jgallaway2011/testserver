@@ -24,7 +24,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.post('/', function(request, response) {
   console.log('POST /');
-  console.dir(request.body);
+  console.dir(request);
   response.writeHead(200, {'Content-Type': 'text/html'});
   response.end('thanks');
 })
